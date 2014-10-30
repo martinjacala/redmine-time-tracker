@@ -10,31 +10,55 @@
 	<string>RedmineTimeTracker</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>411929A5-8ABB-4CAF-A99C-EC712C738D6E</key>
-		<string>ssh://www.smooh.ch:2222/redminetimetracker</string>
+		<key>BB3C4AE3EC7E6771B5CB3DC143FB7B67396AE556</key>
+		<string>https://github.com/shpakovski/MASShortcut.git</string>
+		<key>C1F539F15EACE53F341183481498F27009FED851</key>
+		<string>https://github.com/martinjacala/redmine-time-tracker.git</string>
+		<key>DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8</key>
+		<string>https://github.com/AFNetworking/AFNetworking.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RedmineTimeTracker.xcodeproj/project.xcworkspace</string>
+	<string>RedmineTimeTracker.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>411929A5-8ABB-4CAF-A99C-EC712C738D6E</key>
+		<key>BB3C4AE3EC7E6771B5CB3DC143FB7B67396AE556</key>
+		<string>../..RedmineTimeTracker/addins/MASShortcut</string>
+		<key>C1F539F15EACE53F341183481498F27009FED851</key>
 		<string>../..</string>
+		<key>DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8</key>
+		<string>../..RedmineTimeTracker/addins/AFNetworking</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://www.smooh.ch:2222/redminetimetracker</string>
+	<string>https://github.com/martinjacala/redmine-time-tracker.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>411929A5-8ABB-4CAF-A99C-EC712C738D6E</string>
+	<string>C1F539F15EACE53F341183481498F27009FED851</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>411929A5-8ABB-4CAF-A99C-EC712C738D6E</string>
+			<string>DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>redminetimetracker</string>
+			<string>AFNetworking</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BB3C4AE3EC7E6771B5CB3DC143FB7B67396AE556</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MASShortcut</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1F539F15EACE53F341183481498F27009FED851</string>
+			<key>IDESourceControlWCCName</key>
+			<string>redmine-time-tracker</string>
 		</dict>
 	</array>
 </dict>

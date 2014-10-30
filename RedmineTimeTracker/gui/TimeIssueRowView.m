@@ -51,12 +51,18 @@
     if ([[self.objectValue n_user] isEqual:user]) {
         [self.pauseButton setHidden:NO];
         if ([self.objectValue currentUser]) {
-            [self.pauseButton setImage:[NSImage imageNamed:NSImageNameStopProgressTemplate]];
+            [self.pauseButton setImage:[NSImage imageNamed:@"button-stop"]];
+            [self.timeTextField setFont:[NSFont fontWithName:@"Helvetica Neue Thin" size:28]];
+            [self.timeTextField setTextColor:[NSColor colorWithDeviceRed:0.059 green:0.502 blue:0.988 alpha:1.000]];
         } else {
-            [self.pauseButton setImage:[NSImage imageNamed:NSImageNameRightFacingTriangleTemplate]];
+            [self.pauseButton setImage:[NSImage imageNamed:@"button-start"]];
+            [self.timeTextField setTextColor:[NSColor controlTextColor]];
+            [self.timeTextField setFont:[NSFont fontWithName:@"Helvetica Neue Thin" size:28]];
         }
     } else {
         [self.pauseButton setHidden:YES];
+        [self.timeTextField setTextColor:[NSColor controlTextColor]];
+        [self.timeTextField setFont:[NSFont fontWithName:@"Helvetica Neue UltraLight" size:28]];
     }
 }
 
@@ -68,6 +74,13 @@
         LOG_INFO(@"Adding current user");
         [self.objectValue setCurrentUser:self.user];
     }
+}
+
+-(IBAction)pressIssueSubject:(id)sender {
+    SMCurrentUser *user = [SMCurrentUser findOrCreate];
+    id value = [[[self objectValue] valueForKey:@"n_issue"] valueForKey:@"n_id"];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@/issues/%@",user.serverUrl,value]]];
+    
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {

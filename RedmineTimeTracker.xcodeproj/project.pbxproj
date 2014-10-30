@@ -33,6 +33,8 @@
 		07E4E075192391A20089431A /* SMStatisticsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E4E073192391A20089431A /* SMStatisticsWindowController.xib */; };
 		07E4E07A1924FDCB0089431A /* SMNewIssueWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E4E0781924FDCB0089431A /* SMNewIssueWindowController.m */; };
 		07E4E07B1924FDCB0089431A /* SMNewIssueWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E4E0791924FDCB0089431A /* SMNewIssueWindowController.xib */; };
+		379ADB8C1A022FF80045639C /* button-start.png in Resources */ = {isa = PBXBuildFile; fileRef = 379ADB8A1A022FF80045639C /* button-start.png */; };
+		379ADB8D1A022FF80045639C /* button-stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 379ADB8B1A022FF80045639C /* button-stop.png */; };
 		CF10AEDB16B177D5008F9741 /* RedmineTimeTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF10AED916B177D5008F9741 /* RedmineTimeTracker.xcdatamodeld */; };
 		CF10AEDD16B17845008F9741 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10AEDC16B17845008F9741 /* SystemConfiguration.framework */; };
 		CF10AEF616B179EF008F9741 /* SMManagedObject+networkExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10AEF516B179EF008F9741 /* SMManagedObject+networkExtension.m */; };
@@ -149,6 +151,8 @@
 		07E4E0771924FDCB0089431A /* SMNewIssueWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNewIssueWindowController.h; sourceTree = "<group>"; };
 		07E4E0781924FDCB0089431A /* SMNewIssueWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMNewIssueWindowController.m; sourceTree = "<group>"; };
 		07E4E0791924FDCB0089431A /* SMNewIssueWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMNewIssueWindowController.xib; sourceTree = "<group>"; };
+		379ADB8A1A022FF80045639C /* button-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-start.png"; sourceTree = SOURCE_ROOT; };
+		379ADB8B1A022FF80045639C /* button-stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-stop.png"; sourceTree = SOURCE_ROOT; };
 		CF10AEDA16B177D5008F9741 /* 0.2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 0.2.xcdatamodel; sourceTree = "<group>"; };
 		CF10AEDC16B17845008F9741 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CF10AEF416B179EF008F9741 /* SMManagedObject+networkExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMManagedObject+networkExtension.h"; sourceTree = "<group>"; };
@@ -578,6 +582,8 @@
 		CF8844BD16B045E9008B87FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				379ADB8A1A022FF80045639C /* button-start.png */,
+				379ADB8B1A022FF80045639C /* button-stop.png */,
 				0775F4BC17BA77BC00F9D18F /* Icon.icns */,
 				CF8844BE16B045E9008B87FC /* RedmineTimeTracker-Info.plist */,
 				CF8844BF16B045E9008B87FC /* InfoPlist.strings */,
@@ -719,6 +725,7 @@
 			files = (
 				07E4E075192391A20089431A /* SMStatisticsWindowController.xib in Resources */,
 				CF8844C116B045E9008B87FC /* InfoPlist.strings in Resources */,
+				379ADB8C1A022FF80045639C /* button-start.png in Resources */,
 				CF8844C716B045E9008B87FC /* Credits.rtf in Resources */,
 				CF8844CD16B045E9008B87FC /* MainMenu.xib in Resources */,
 				CF114B9A16B68EC70033346D /* StartTrackingWindowController.xib in Resources */,
@@ -727,6 +734,7 @@
 				CF31D21516BE880100E81902 /* ApplicationTrackerWindowController.xib in Resources */,
 				07E4E07B1924FDCB0089431A /* SMNewIssueWindowController.xib in Resources */,
 				0775F4BD17BA77BC00F9D18F /* Icon.icns in Resources */,
+				379ADB8D1A022FF80045639C /* button-stop.png in Resources */,
 				070020F21927376C00EBE9CF /* SMNewTimeEntryWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

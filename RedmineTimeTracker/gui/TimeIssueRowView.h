@@ -10,6 +10,8 @@
 
 @interface TimeIssueRowView : NSTableCellView
 @property (nonatomic,weak) IBOutlet NSButton *pauseButton;
+@property (nonatomic,weak) IBOutlet NSTextField *timeTextField;
 
 -(IBAction)pressPause:(id)sender;
+-(IBAction)pressIssueSubject:(id)sender;
 @end
