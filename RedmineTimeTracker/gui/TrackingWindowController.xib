@@ -246,7 +246,6 @@
                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                         <connections>
                                                                             <binding destination="189" name="value" keyPath="objectValue.n_comments" id="390"/>
-                                                                            <outlet property="formatter" destination="Pux-za-leQ" id="8AQ-Ug-Aw4"/>
                                                                         </connections>
                                                                     </textFieldCell>
                                                                     <connections>
@@ -375,7 +374,6 @@
                 <binding destination="-2" name="sortDescriptors" keyPath="timeEntrySortDescriptors" id="416"/>
             </connections>
         </arrayController>
-        <customFormatter id="Pux-za-leQ" customClass="SMIssueTitleFormatter"/>
     </objects>
     <resources>
         <image name="NSGoLeftTemplate" width="9" height="12"/>
